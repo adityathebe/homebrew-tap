@@ -7,7 +7,7 @@ cask "day-progress" do
   desc "Menubar app showing progress through the current day"
   homepage "https://github.com/adityathebe/day-progress"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "DayProgressMenuBar.app"
 end
